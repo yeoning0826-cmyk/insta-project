@@ -219,7 +219,7 @@ function App() {
 			<div className="orb orb-3"></div>
 
 			<div className="container">
-								<h1 className="title" onClick={resetApp} style={{cursor: 'pointer'}} title="클릭하면 초기화">FLYO 인스타 언팔 분석</h1>
+								<h1 className="title" onClick={resetApp} style={{cursor: 'pointer'}} title="클릭하면 초기화">플라이오</h1>
 				<p className="subtitle">
 					팔로워와 팔로잉 JSON 파일을 각각 업로드하면, 내가 팔로우하지만 나를 팔로우하지 않는 계정 목록을 보여줍니다.
 				</p>

@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import AdFit from "./AdFit";
 import { createRoot } from "react-dom/client";
 
 // ✅ 인스타그램 JSON에서 사용자명 추출 (다양한 형식 지원)
@@ -361,8 +362,12 @@ function App() {
 									data-ad-height="600"></ins>
 								</div>
 								<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+								{/* Kakao 광고 영역: 푸터 바로 위에 고정 */}
+								<div style={{width: '100%', display: 'flex', justifyContent: 'center', margin: '2rem 0 1rem 0'}}>
+									<AdFit />
+								</div>
 								<footer className="footer" style={{textAlign: 'center', margin: '0 auto', width: '100%', padding: '2px 0', fontSize: '0.85rem', color: '#aaa', lineHeight: '1.2'}}>
-									© 2025 Re-rank. All rights reserved. | seoyeon
+										© 2025 Re-rank. All rights reserved. | seoyeon
 								</footer>
 			</div>
 		</>
